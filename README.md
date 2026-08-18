@@ -70,38 +70,10 @@ chmod +x server-check.sh
 
 <img width="1166" height="369" alt="image" src="https://github.com/user-attachments/assets/646b3243-bfeb-4809-ac5b-69ca0c71303e" />
 
-
 `📁 screenshots/server-health-check.png`
 
-Once uploaded, the image will appear here automatically:
-
-![Server Health Check Output](screenshots/server-health-check.png)
-
 ---
 
-## 🧪 Example Output
-
-```text
-===== SERVER HEALTH CHECK =====
-
-CPU Core: 4
-
-Memory Detail:
-Mem:           7.6Gi       488Mi       7.0Gi       3.5Mi       218Mi       7.1Gi
-Swap:          2.0Gi          0B       2.0Gi
-
-Disk usage is 78 Status OK
-
-Shell Scripts:
-NodeMonitring.sh
-server-check.sh
-first-shell-script.sh
-ifelse.sh
-
-Total Shell Scripts: 4
-```
-
----
 
 ## 🧠 Learning Notes
 
@@ -138,6 +110,6 @@ This repository is part of a practical DevOps learning journey focused on:
 
 ## 👨‍💻 Author
 
-**Israr**
+**Israr Ahmad**
 
 Built while practicing Linux and DevOps scripting fundamentals.
