@@ -20,7 +20,7 @@ The scripts focus on practical automation tasks such as system monitoring, comma
 DevOps-Scripting/
 ├── server-check.sh
 ├── screenshots/
-│   └── server-health-check.png   # Add your execution screenshot here
+│   └── server-health-check.png
 └── README.md
 ```
 
@@ -68,7 +68,8 @@ chmod +x server-check.sh
 
 ## 📸 Output Preview
 
-Add your terminal screenshot here:
+<img width="1166" height="369" alt="image" src="https://github.com/user-attachments/assets/646b3243-bfeb-4809-ac5b-69ca0c71303e" />
+
 
 `📁 screenshots/server-health-check.png`
 
