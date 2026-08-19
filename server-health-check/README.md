@@ -70,7 +70,7 @@ chmod +x server-check.sh
 
 <img width="1166" height="369" alt="image" src="https://github.com/user-attachments/assets/646b3243-bfeb-4809-ac5b-69ca0c71303e" />
 
-`📁 screenshots/server-health-check.png`
+`📁 server-health-check.png`
 
 ---
 
