@@ -1,58 +1,84 @@
 # ⚙️ DevOps Scripting
 
-> **Practical Bash scripting projects for Linux, DevOps, automation, and system administration.**
+> **A growing collection of practical DevOps scripting projects built while learning Linux, Bash, AWS, automation, and cloud fundamentals.**
 
 ![Bash](https://img.shields.io/badge/Bash-Scripting-111827?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-DevOps-2563EB?style=for-the-badge&logo=linux&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-Cloud-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-GitHub-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Learning](https://img.shields.io/badge/Learning-DevOps-16A34A?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-16A34A?style=for-the-badge)
 
 ## 🚀 About This Repository
 
 Welcome to my **DevOps Scripting** repository.
 
-This repository is a collection of practical Bash and Linux scripting projects that I am building while learning and strengthening my **DevOps fundamentals**.
+This repository contains the practical projects I am building as I learn and strengthen my **DevOps fundamentals**. Each project focuses on a specific real-world task and is kept inside its **own dedicated folder** with its script and documentation.
 
-Instead of keeping everything in one script, each project is organized inside its **own dedicated folder** with its script, documentation, and supporting files where applicable.
-
-The goal is to learn by building real, small-scale automation and system administration tasks step by step.
+> **Learn the concept → Build a practical script → Test it → Document it → Improve it.**
 
 ---
 
 ## 📂 Projects
 
-### 🩺 1. Server Health Check
+### 🩺 01 — Server Health Check
 
 📁 `server-health-check/`
 
-A Bash script that performs a basic server health check and demonstrates practical Linux command usage.
+A Bash-based server monitoring script that checks basic system health information and reports disk usage status.
 
-**What it covers:**
-- 🧠 CPU core information using `nproc`
-- 💾 Memory information using `free`
-- 💿 Disk usage using `df`, `grep`, and `awk`
-- 🚨 Disk usage warning with Bash conditions
-- 🔁 Shell script detection using a `for` loop
-- 🧹 String cleanup using Bash parameter expansion
+**What I practiced:**
+- 🧠 CPU core detection with `nproc`
+- 💾 Memory information with `free`
+- 💿 Disk usage with `df`
+- 🔎 Text processing with `grep` and `awk`
+- 🚨 Disk usage warning using Bash conditions
+- 🔁 `for` loops and shell script detection
+- 🧹 Bash parameter expansion
 
 👉 [Open Server Health Check](./server-health-check/)
 
 ---
 
-### 🧪 2. Log Error Extractor
+### 🧪 02 — Log Error Extractor
 
 📁 `log-error-extractor/`
 
-A Bash utility that reads a log source and extracts **only error-related lines**.
+A Bash utility designed to extract and display **only error-related entries** from log sources.
 
-It supports:
+**It supports:**
 - 📄 Local log files
 - 🌐 Log URLs
-- 🔎 Case-insensitive error filtering with `grep`
-- ⌨️ Interactive user input
-- 🌐 Fetching remote logs with `curl`
+- 🔎 Case-insensitive filtering with `grep`
+- ⌨️ Interactive input with `read`
+- 🌐 Remote log retrieval with `curl`
+- 📝 Basic log analysis
 
 👉 [Open Log Error Extractor](./log-error-extractor/)
+
+---
+
+### ☁️ 03 — AWS Resource Usage
+
+📁 `aws-resource-usage/`
+
+A Bash script that uses the **AWS CLI** to report commonly used AWS resources directly from the Linux terminal.
+
+**Resources covered:**
+- 🪣 Amazon S3 buckets
+- 🖥️ EC2 instances
+- ⚡ AWS Lambda functions
+- 👤 IAM users
+
+**What I practiced:**
+- AWS CLI commands
+- AWS resource listing
+- JSON output processing with `jq`
+- Bash scripting and command pipelines
+- Working with AWS from the Linux terminal
+
+👉 [Open AWS Resource Usage](./aws-resource-usage/)
+
+> ⚠️ AWS credentials and secret keys should never be committed to GitHub or shared publicly.
 
 ---
 
@@ -69,34 +95,38 @@ DevOps-Scripting/
 │   ├── logchecker.sh
 │   └── README.md
 │
+├── aws-resource-usage/
+│   ├── aws-resource-usage.sh
+│   └── README.md
+│
 ├── screenshots/
 │   └── server-health-check.png.png
 │
 └── README.md
 ```
 
-> Each project is kept in a separate folder so the repository can grow into an organized collection of DevOps scripting projects.
+Each project is intentionally separated into its own folder so this repository can continue growing into a structured collection of DevOps projects.
 
 ---
 
 ## 🛠️ Technologies & Tools
 
-| Technology / Tool | Purpose |
+| Tool / Technology | Purpose |
 |---|---|
-| 🐧 **Linux** | Operating system & administration practice |
-| 🐚 **Bash** | Shell scripting & automation |
+| 🐧 **Linux** | System administration & command-line practice |
+| 🐚 **Bash** | Scripting & automation |
 | 🔎 **grep** | Text and log filtering |
 | 🧩 **awk** | Text processing & field extraction |
-| 📊 **df / free** | System resource information |
+| 📊 **df / free / nproc** | System information |
 | 🌐 **curl** | Working with remote URLs |
+| ☁️ **AWS CLI** | AWS resource management |
+| 🧾 **jq** | JSON processing |
 | 🌿 **Git** | Version control |
-| 🐙 **GitHub** | Project management & code hosting |
+| 🐙 **GitHub** | Code hosting & project documentation |
 
 ---
 
-## 🎯 Learning Journey
-
-This repository is part of my practical DevOps learning journey:
+## 🎯 DevOps Learning Journey
 
 ```text
 Linux
@@ -116,39 +146,42 @@ Kubernetes
 Infrastructure & Automation
 ```
 
-I am continuously adding new projects and improving existing scripts as I learn.
+I am building these skills through **hands-on projects instead of only studying theory**.
 
 ---
 
-## 📸 Screenshots
+## 📸 Project Screenshots
 
-Project execution screenshots and visual references are stored in the repository's screenshot section.
-
-They show the scripts running and help document my hands-on learning progress.
+Screenshots are included to document script execution and show the practical output of the projects. More screenshots will be added as new projects are developed.
 
 ---
 
-## 💡 Why This Repository?
+## 📈 Project Progress
 
-The purpose is not just to collect scripts, but to **practice real DevOps concepts through hands-on projects**.
-
-Every project helps me improve my understanding of:
-
-- Linux command-line tools
-- Bash syntax and scripting logic
-- Automation
-- File and text processing
-- System monitoring
-- Error handling and log analysis
-- Git and GitHub workflows
+| # | Project | Status |
+|---|---|---|
+| 01 | Server Health Check | ✅ Completed |
+| 02 | Log Error Extractor | ✅ Completed |
+| 03 | AWS Resource Usage | ✅ Completed |
+| 04 | More DevOps Automation Projects | 🚧 In Progress |
 
 ---
 
-## 📈 Progress
+## 💡 Why I Built This Repository
 
-This repository is actively being developed as I continue my DevOps journey.
+This repository is more than a collection of scripts. It is a record of my practical DevOps learning journey.
 
-> **Learn → Build → Test → Document → Improve → Repeat 🔁**
+Through these projects, I am improving my understanding of Linux command-line tools, Bash scripting, automation, system monitoring, log analysis, AWS CLI, JSON processing, Git/GitHub workflows, and practical troubleshooting.
+
+---
+
+## 🔄 Learning Philosophy
+
+```text
+Learn → Build → Test → Debug → Document → Improve → Repeat 🔁
+```
+
+I will continue adding new projects as I progress from Linux and Bash toward **Cloud, Docker, CI/CD, Kubernetes, and DevOps automation**.
 
 ---
 
@@ -156,6 +189,6 @@ This repository is actively being developed as I continue my DevOps journey.
 
 **Israr Ahmad**
 
-Learning and building practical projects in **Linux, Bash, DevOps, automation, and cloud technologies**.
+Aspiring DevOps Engineer | Learning Linux, Bash, AWS, Cloud & Automation
 
-⭐ If you find this repository useful, feel free to explore the projects and follow the journey.
+⭐ This repository is actively evolving as I continue learning and building practical DevOps projects.
