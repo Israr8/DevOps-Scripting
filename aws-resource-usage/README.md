@@ -88,7 +88,3 @@ Lists IAM users.
 - JSON processing with `jq`
 - Linux command-line automation
 - AWS resource monitoring/reporting
-
-## ⚠️ Security Note
-
-Never commit AWS access keys, secret keys, passwords, or other credentials to GitHub. Use AWS CLI configuration, environment variables, or an appropriate AWS identity/role instead.
